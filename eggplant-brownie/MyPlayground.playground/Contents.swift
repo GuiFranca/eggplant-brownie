@@ -1,19 +1,25 @@
 import UIKit
 
-let nome: String = "churros"
-let felicidade: Int = 5
-let calorias: Double = 79.5
-let vegetal: Bool = false
-
-//func alimentoConsumido() {
-//    print("o alimento consumido foi: \(nome)")
-//}
-
-//alimentoConsumido()
+let caloria1 = 50.2
+let caloria2 = 100
+let caloria3 = 400
+let caloria4 = 500
 
 
-func alimentoConsumido(_ nome: String, _ caloria: Double) {
-    print("O alimento consumido foi: \(nome), com calorias \(caloria)")
+let totalDeCalorias = [50.5, 100, 400, 500, 423, 700]
+print(totalDeCalorias)
+
+// Primeira forma de fazer um laco
+for i in 0...3 {
+    print(totalDeCalorias[i])
 }
 
-alimentoConsumido(nome, calorias)
+//segunda forma de fazer um laco
+for i in 0...totalDeCalorias.count - 1{
+    print(totalDeCalorias[i])
+}
+
+//terceira forma de fazer um laco
+for caloria in totalDeCalorias {
+    print(caloria)
+}
