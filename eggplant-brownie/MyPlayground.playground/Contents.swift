@@ -1,24 +1,33 @@
 import UIKit
 
-var nome: String = "Macarrao"
-var felicidade: String = "5"
-
-let nome2: String = "Churros"
-let felicidade2: String = "4"
-
 class Refeicao {
-    let nome: String = "Macarrao"
-    let felicidade: String = "5"
+    var nome: String?
+    var felicidade: String?
 }
 
 let refeicao: Refeicao = Refeicao()
+refeicao.nome = "Macarrao"
 
-print(refeicao.nome)
-
-class Refeicao2 {
-    var nome = "Churros"
-    var felicidade = "4"
+if refeicao.nome != nil {
+    print(refeicao.nome!)
 }
 
-var refeicao2 = Refeicao2()
-print(refeicao2.nome)
+//boas praticas extrair valores opcionais
+if let nome = refeicao.nome {
+    print(nome)
+}
+
+//guard let
+func exibeNomeDaRefeicao() {
+    if let nome = refeicao.nome {
+        print(nome)
+    }
+    
+    guard let nome = refeicao.nome else {
+        return
+    }
+    
+    print(nome)
+}
+
+exibeNomeDaRefeicao()
