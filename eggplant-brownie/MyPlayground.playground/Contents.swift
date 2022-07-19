@@ -1,15 +1,24 @@
 import UIKit
 
-let totalDeCalorias = [50.5, 100]
+var nome: String = "Macarrao"
+var felicidade: String = "5"
 
-func todasCalorias(totalDeCalorias: [Double]) -> Double {
-    var total: Double = 0
-    
-    for caloria in totalDeCalorias {
-        total += caloria;
-    }
-    
-    return total
+let nome2: String = "Churros"
+let felicidade2: String = "4"
+
+class Refeicao {
+    let nome: String = "Macarrao"
+    let felicidade: String = "5"
 }
-let total = todasCalorias(totalDeCalorias: totalDeCalorias)
-print(total)
+
+let refeicao: Refeicao = Refeicao()
+
+print(refeicao.nome)
+
+class Refeicao2 {
+    var nome = "Churros"
+    var felicidade = "4"
+}
+
+var refeicao2 = Refeicao2()
+print(refeicao2.nome)
