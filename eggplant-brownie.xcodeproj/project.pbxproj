@@ -16,7 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		49CE8E7028861B5200BCFF93 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = ../MyPlayground.playground; sourceTree = "<group>"; };
 		49CE8E7128861B9100BCFF93 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		49F5A1CC2877BCAE0039C1A1 /* eggplant-brownie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eggplant-brownie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F5A1CF2877BCAE0039C1A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,7 +41,6 @@
 		49F5A1C32877BCAE0039C1A1 = {
 			isa = PBXGroup;
 			children = (
-				49CE8E7028861B5200BCFF93 /* MyPlayground.playground */,
 				49F5A1CE2877BCAE0039C1A1 /* eggplant-brownie */,
 				49F5A1CD2877BCAE0039C1A1 /* Products */,
 			);
