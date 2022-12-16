@@ -34,6 +34,8 @@ class ViewController: UIViewController {
         
         let refeicao = Refeicao(nome: nomeDaRefeicao, felicidade: felicidade)
         print("Comi \(refeicao.nome) e fiquei com felicidade: \(refeicao.felicidade)")
+        
+        navigationController?.popViewController(animated: true)
     }
 }
 

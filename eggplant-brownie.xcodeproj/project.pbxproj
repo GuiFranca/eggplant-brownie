@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		496893AC294B9AA7004C09F7 /* RefeicoesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496893AB294B9AA7004C09F7 /* RefeicoesTableViewController.swift */; };
 		49DF00F128A5947F001D33E4 /* Refeicao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DF00F028A5947F001D33E4 /* Refeicao.swift */; };
 		49DF00F328A594EE001D33E4 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DF00F228A594EE001D33E4 /* Item.swift */; };
 		49F5A1D02877BCAE0039C1A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F5A1CF2877BCAE0039C1A1 /* AppDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		496893AB294B9AA7004C09F7 /* RefeicoesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefeicoesTableViewController.swift; sourceTree = "<group>"; };
 		49CE8E7128861B9100BCFF93 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		49DF00F028A5947F001D33E4 /* Refeicao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refeicao.swift; sourceTree = "<group>"; };
 		49DF00F228A594EE001D33E4 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				49F5A1D32877BCAE0039C1A1 /* ViewController.swift */,
+				496893AB294B9AA7004C09F7 /* RefeicoesTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				49DF00F328A594EE001D33E4 /* Item.swift in Sources */,
 				49F5A1D42877BCAE0039C1A1 /* ViewController.swift in Sources */,
 				49F5A1D02877BCAE0039C1A1 /* AppDelegate.swift in Sources */,
+				496893AC294B9AA7004C09F7 /* RefeicoesTableViewController.swift in Sources */,
 				49F5A1D22877BCAE0039C1A1 /* SceneDelegate.swift in Sources */,
 				49DF00F128A5947F001D33E4 /* Refeicao.swift in Sources */,
 			);
