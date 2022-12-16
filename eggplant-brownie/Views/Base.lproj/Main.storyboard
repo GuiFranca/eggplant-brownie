@@ -51,7 +51,7 @@
                     <navigationItem key="navigationItem" id="u2F-6L-pgg">
                         <barButtonItem key="rightBarButtonItem" title="Add" id="sTN-F2-gyd">
                             <connections>
-                                <segue destination="BYZ-38-t0r" kind="show" id="Jds-rJ-NEr"/>
+                                <segue destination="BYZ-38-t0r" kind="show" identifier="adicionar" id="Jds-rJ-NEr"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
