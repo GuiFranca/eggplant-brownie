@@ -116,6 +116,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="E7c-MN-3CR"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="yxZ-1u-JBM"/>
                                 </connections>
                             </tableView>
                         </subviews>
